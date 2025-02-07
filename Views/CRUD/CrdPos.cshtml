@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.PosOrder>
+@{
+    ViewBag.Title = "Все позиции";
+}
+
+<a asp-action="CreatePos">Добавить позицию</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.IdPosOrder</td>
+            <td>
+                |
+                <a asp-action="UpdatePos" asp-route-id="@item.IdPosOrder" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeletePos" asp-route-id="@item.IdPosOrder" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsPos" asp-route-id="@item.IdPosOrder" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,39 @@
+﻿@model guitarshop.Models.CatalogProd
+
+@{
+    ViewBag.Title = "Добавление товара";
+}
+<form asp-action="Create" asp-controller="CRUD">
+    <div class="form-group">
+        <label asp-for="NameGuitar" class="control-label">Название</label>
+        <input type="text" asp-for="NameGuitar" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarDescription" class="control-label">Описание</label>
+        <input type="text" asp-for="GuitarDescription" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarImage" class="control-label">Картинка</label>
+        <input type="text" asp-for="GuitarImage" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarPrice" class="control-label">Цена</label>
+        <input type="number" asp-for="GuitarPrice" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarFormId" class="control-label">ID формы</label>
+        <input type="text" asp-for="GuitarFormId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarTypeId" class="control-label">ID типа гитары</label>
+        <input type="text" asp-for="GuitarTypeId" class="form-control" />
+    </div>
+
+
+
+
+    <div class="form-group">
+        <input type="submit" value="Отправить" class="btn btn-default" />
+    </div>
+</form>
+

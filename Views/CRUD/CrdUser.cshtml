@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.User>
+@{
+    ViewBag.Title = "Все пользователи";
+}
+
+<a asp-action="CreateUser">Добавить пользователя</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.LoginUser</td>
+            <td>
+                |
+                <a asp-action="UpdateUser" asp-route-id="@item.IdUser" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeleteUser" asp-route-id="@item.IdUser" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsUsers" asp-route-id="@item.IdUser" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,20 @@
+﻿@model guitarshop.Models.Order
+@{
+    ViewBag.Title = "Delete";
+}
+<div>
+    <dl>
+        <dt>ID</dt>
+        <dd>@Html.DisplayFor(model => model.IdOrder)</dd>
+
+        <dt>Дата заказа</dt>
+        <dd>@Html.DisplayFor(model => model.OrderDate)</dd>
+
+        <div>
+            <form asp-controller="CRUD" asp-action="DeleteOrder" method="post">
+                <div>
+                    <input type="submit" value="Удалить" />
+                </div>
+            </form>
+        </div>
+</div>

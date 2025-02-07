@@ -1,0 +1,20 @@
+﻿@model guitarshop.Models.User
+@{
+    ViewBag.Title = "Delete";
+}
+<div>
+    <dl>
+        <dt>ID</dt>
+        <dd>@Html.DisplayFor(model => model.IdUser)</dd>
+
+        <dt>Название</dt>
+        <dd>@Html.DisplayFor(model => model.LoginUser)</dd>
+
+        <div>
+            <form asp-controller="CRUD" asp-action="DeleteUser" method="post">
+                <div>
+                    <input type="submit" value="Удалить" />
+                </div>
+            </form>
+        </div>
+</div>

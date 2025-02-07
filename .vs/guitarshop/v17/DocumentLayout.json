@@ -1,0 +1,1217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\guitarshop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\product\\prd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\product\\prd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\catalog\\ctlg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\catalog\\ctlg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\cart\\crt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\cart\\crt.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\autorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\autorizecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\order\\ord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\order\\ord.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crdcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crdcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\crudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updateuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\home\\errorrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\home\\errorrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\autorize\\cab.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\autorize\\cab.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\autorize\\regist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\autorize\\regist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updatetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updatetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\aspguiznotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\aspguiznotescontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crdtypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crdtypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\catalogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\catalogprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\catalogprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updateorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updateorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updatepos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updatepos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crdpos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crdpos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createpos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createpos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crdform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crdform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crdorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crdorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crdrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crdrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\crduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\crduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createtype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createtype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\createuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deletecart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deletecart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deleteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deleteform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deleteorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deleteorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deletepos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deletepos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deleterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deletetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deletetype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\deleteuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailscart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailscart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailsform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailsform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailsorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailsorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailspos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailspos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailsrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailsrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailstype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailstype.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\detailsusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\detailsusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updatecart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updatecart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\crud\\updateform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\crud\\updateform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\guitarshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:guitarshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\posorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\posorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\cartitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\typeguitar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\typeguitar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|c:\\users\\user\\source\\repos\\guitarshop\\models\\guitarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B23EF2E8-FFF2-425C-8CCC-46461DD318A1}|guitarshop.csproj|solutionrelative:models\\guitarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "prd.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Product\\prd.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\prd.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Product\\prd.cshtml",
+              "RelativeToolTip": "Views\\Product\\prd.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T20:08:55.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T20:11:09.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADUAAAAAAAAAAAAAwEMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:31:17.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CrdCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdCart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdCart.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:20:23.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Crd.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Crd.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\Crd.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Crd.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\Crd.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:20:41.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutorizeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\AutorizeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AutorizeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\AutorizeController.cs",
+              "RelativeToolTip": "Controllers\\AutorizeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:22:57.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Crt.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Cart\\Crt.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Crt.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Cart\\Crt.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Crt.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:43:59.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ctlg.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Catalog\\Ctlg.cshtml",
+              "RelativeDocumentMoniker": "Views\\Catalog\\Ctlg.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Catalog\\Ctlg.cshtml",
+              "RelativeToolTip": "Views\\Catalog\\Ctlg.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADIAAACTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:44:23.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\Details.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Details.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:12:31.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Update.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\Update.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Update.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:12:54.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Delete.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T21:10:02.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CRUDController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\CRUDController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CRUDController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\CRUDController.cs",
+              "RelativeToolTip": "Controllers\\CRUDController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwAsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T09:37:45.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ord.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Order\\Ord.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Ord.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Order\\Ord.cshtml",
+              "RelativeToolTip": "Views\\Order\\Ord.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAHkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T18:44:15.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\Create.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\Create.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:11:52.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateType.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateType.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdateType.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateType.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdateType.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T09:22:35.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdateUser.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateUser.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdateUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:41:36.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ErrorRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Home\\ErrorRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ErrorRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Home\\ErrorRole.cshtml",
+              "RelativeToolTip": "Views\\Home\\ErrorRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T09:45:40.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CrdTypes.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdTypes.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdTypes.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdTypes.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdTypes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:16:26.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:16:49.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cab.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Autorize\\Cab.cshtml",
+              "RelativeDocumentMoniker": "Views\\Autorize\\Cab.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Autorize\\Cab.cshtml",
+              "RelativeToolTip": "Views\\Autorize\\Cab.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAGkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:25:42.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Regist.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Autorize\\Regist.cshtml",
+              "RelativeDocumentMoniker": "Views\\Autorize\\Regist.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Autorize\\Regist.cshtml",
+              "RelativeToolTip": "Views\\Autorize\\Regist.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAHcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T13:25:52.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CatalogController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\CatalogController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\CatalogController.cs",
+              "RelativeToolTip": "Controllers\\CatalogController.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAYwGwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:44:58.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CatalogProd.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\CatalogProd.cs",
+              "RelativeDocumentMoniker": "Models\\CatalogProd.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\CatalogProd.cs",
+              "RelativeToolTip": "Models\\CatalogProd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:01:55.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AspGuiznotesContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\AspGuiznotesContext.cs",
+              "RelativeDocumentMoniker": "Models\\AspGuiznotesContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\AspGuiznotesContext.cs",
+              "RelativeToolTip": "Models\\AspGuiznotesContext.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwCcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:10:10.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T12:33:07.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdateOrder.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateOrder.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdateOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:01:17.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UpdatePos.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdatePos.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdatePos.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdatePos.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdatePos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:04:37.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UpdateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdateRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateRole.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:14:11.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CrdPos.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdPos.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdPos.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdPos.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdPos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:00:06.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreatePos.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreatePos.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreatePos.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreatePos.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreatePos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:03:41.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreateOrder.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateOrder.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreateOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:56:07.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CrdForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdForm.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdForm.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:29:41.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CrdOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdOrder.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdOrder.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:53:18.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CrdRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdRole.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:02:50.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CrdUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CrdUser.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CrdUser.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CrdUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:29:33.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreateCart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateCart.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreateCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:41:43.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreateForm.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateForm.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreateForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:32:19.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreateRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateRole.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreateRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:13:59.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CreateType.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateType.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreateType.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateType.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreateType.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:17:44.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CreateUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\CreateUser.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\CreateUser.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\CreateUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T20:34:16.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DeleteCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeleteCart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteCart.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeleteCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:50:49.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DeleteOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeleteOrder.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteOrder.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeleteOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:04:34.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "DeletePos.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeletePos.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeletePos.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeletePos.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeletePos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:01:29.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DeleteRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeleteRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteRole.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeleteRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:14:22.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "DeleteType.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteType.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeleteType.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteType.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeleteType.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T09:23:11.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DeleteUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteUser.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeleteUser.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteUser.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeleteUser.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T21:39:31.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DeleteForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DeleteForm.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DeleteForm.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DeleteForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:43:58.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DetailsCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsCart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsCart.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:51:56.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DetailsForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsForm.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsForm.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:44:51.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DetailsOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsOrder.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsOrder.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsOrder.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsOrder.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:05:46.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "DetailsPos.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsPos.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsPos.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsPos.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsPos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T20:02:33.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DetailsRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsRole.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsRole.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsRole.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:14:34.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "DetailsType.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsType.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsType.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsType.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsType.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T09:23:35.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DetailsUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsUsers.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\DetailsUsers.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\DetailsUsers.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\DetailsUsers.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T22:01:34.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "UpdateCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateCart.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdateCart.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateCart.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdateCart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T19:49:27.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UpdateForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\CRUD\\UpdateForm.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\CRUD\\UpdateForm.cshtml",
+              "RelativeToolTip": "Views\\CRUD\\UpdateForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-09T18:33:18.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:12:52.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T20:49:40.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T16:44:30.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T13:45:16.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "guitarshop.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\guitarshop.csproj",
+              "RelativeDocumentMoniker": "guitarshop.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\guitarshop.csproj",
+              "RelativeToolTip": "guitarshop.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-01T14:59:51.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:43:31.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T10:09:16.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-01T13:38:26.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PosOrder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\PosOrder.cs",
+              "RelativeDocumentMoniker": "Models\\PosOrder.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\PosOrder.cs",
+              "RelativeToolTip": "Models\\PosOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:53:50.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-01T13:10:39.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T14:01:53.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CartItems.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\CartItems.cs",
+              "RelativeDocumentMoniker": "Models\\CartItems.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\CartItems.cs",
+              "RelativeToolTip": "Models\\CartItems.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:10:14.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "GuitarForm.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\GuitarForm.cs",
+              "RelativeDocumentMoniker": "Models\\GuitarForm.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\GuitarForm.cs",
+              "RelativeToolTip": "Models\\GuitarForm.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:26:51.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "TypeGuitar.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\TypeGuitar.cs",
+              "RelativeDocumentMoniker": "Models\\TypeGuitar.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\TypeGuitar.cs",
+              "RelativeToolTip": "Models\\TypeGuitar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:28:10.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T18:28:11.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\guitarshop\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:53:51.386Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

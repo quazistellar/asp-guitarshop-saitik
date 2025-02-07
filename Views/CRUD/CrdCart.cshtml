@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.Cart>
+@{
+    ViewBag.Title = "Корзины";
+}
+
+<a asp-action="CreateCart">Добавить корзину</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CartId</td>
+            <td>
+                |
+                <a asp-action="UpdateCart" asp-route-id="@item.CartId" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeleteCart" asp-route-id="@item.CartId" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsCart" asp-route-id="@item.CartId" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>

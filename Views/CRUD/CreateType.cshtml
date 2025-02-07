@@ -1,0 +1,22 @@
+﻿@model guitarshop.Models.TypeGuitar
+
+@{
+    ViewBag.Title = "Добавление типа гитары";
+}
+
+<form asp-action="CreateType" asp-controller="CRUD">
+    <div class="form-group">
+        <label asp-for="TypeName" class="control-label">Название типа</label>
+        <input type="text" asp-for="TypeName" class="form-control" />
+        <span asp-validation-for="TypeName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Добавить тип" class="btn btn-primary" />
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

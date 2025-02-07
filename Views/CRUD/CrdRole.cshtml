@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.Role>
+@{
+    ViewBag.Title = "Все роли";
+}
+
+<a asp-action="CreateRole">Добавить роль</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.RoleName</td>
+            <td>
+                |
+                <a asp-action="UpdateRole" asp-route-id="@item.IdRole" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeleteRole" asp-route-id="@item.IdRole" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsRole" asp-route-id="@item.IdRole" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>

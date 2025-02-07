@@ -1,0 +1,235 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = guitarshop
+build_property.RootNamespace = guitarshop
+build_property.ProjectDir = C:\Users\User\source\repos\guitarshop\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\guitarshop
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Autorize/Cab.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JpemVcQ2FiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Autorize/Regist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b3JpemVcUmVnaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Cart/Crt.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Catalog/Ctlg.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xDdGxnLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/Crd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdPos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRQb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdTypes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRUeXBlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CrdUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreateCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreateForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreatePos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVQb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreateType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeleteCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeleteForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeleteOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeletePos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVQb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeleteType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZWxldGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsPos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzUG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzVHlwZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/DetailsUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxEZXRhaWxzVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdateCart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVDYXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdateForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdateOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdatePos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVQb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVSb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdateType.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVUeXBlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/CRUD/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxVcGRhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Home/ErrorAction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvckFjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Home/ErrorRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvclJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Order/Ord.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Product/prd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxwcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/source/repos/guitarshop/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ebpb7tgc4n

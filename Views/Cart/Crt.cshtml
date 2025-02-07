@@ -1,0 +1,41 @@
+﻿@using System.Linq
+@model List<guitarshop.Models.Cart>
+@{
+    ViewData["Title"] = "Корзина";
+}
+
+<div class="text-center">
+    <h3 class="display-3" style="font-family: Arial Black; font-size: 30px;">Корзина</h3>
+</div>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="~/image/@item.Product.GuitarImage" class="card-img" alt="@item.Product.NameGuitar">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Product.NameGuitar</h5>
+                            <p class="card-text">Цена: @item.Product.GuitarPrice</p>
+                            <p class="card-text">
+                                Количество:
+                                <form asp-controller="Cart" asp-action="UpdateQuantity" method="post" class="d-inline">
+                                    <input type="hidden" name="cartId" value="@item.CartId" />
+                                    <input type="number" name="quantity" value="@item.Quantity" min="1" class="form-control form-control-sm" style="width: 60px;">
+                                    <button type="submit" class="btn btn-primary btn-sm">Обновить</button>
+                                </form>
+                            </p>
+                            <a asp-controller="Cart" asp-action="RemoveFromCart" asp-route-cartId="@item.CartId" class="btn btn-danger btn-sm">Удалить</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+<h3>Итого: @Model.Sum(x => x.Product.GuitarPrice * x.Quantity)</h3>
+

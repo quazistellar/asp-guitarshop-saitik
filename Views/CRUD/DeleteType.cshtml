@@ -1,0 +1,21 @@
+﻿@model guitarshop.Models.TypeGuitar
+@{
+    ViewBag.Title = "Delete";
+}
+<div>
+    <dl>
+        <dt>ID</dt>
+        <dd>@Html.DisplayFor(model => model.IdType)</dd>
+
+        <dt>Название</dt>
+        <dd>@Html.DisplayFor(model => model.TypeName)</dd>
+
+
+        <div>
+            <form asp-controller="CRUD" asp-action="DeleteType" method="post">
+                <div>
+                    <input type="submit" value="Удалить" />
+                </div>
+            </form>
+        </div>
+</div>

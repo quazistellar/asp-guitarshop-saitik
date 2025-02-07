@@ -1,0 +1,86 @@
+﻿@model guitarshop.Models.CartItems
+@{
+    ViewData["Title"] = "Каталог";
+}
+
+<div class="text-center">
+    <h3 class="display-3" style="font-family: Arial Black; font-size: 30px;">Каталог</h3>
+</div>
+
+<div>
+    <form id="filterForm">
+        <div class="form-group">
+            <label for="searchString">Поиск:</label>
+            <input type="text" id="searchString" class="form-control" placeholder="Поиск по имени гитары" />
+        </div>
+        <div class="form-group">
+            <label for="typeId">Тип гитары:</label>
+            <select id="typeId" class="form-control">
+                <option value="0">Все типы</option>
+                @foreach (var type in Model.Types)
+                {
+                    <option value="@type.Value">@type.Text</option>
+                }
+            </select>
+        </div>
+        <label for="typeId">Форма гитары:</label>
+        <select id="formId" class="form-control">
+            <option value="0">Все формы</option>
+            @foreach (var form in Model.Forms)
+            {
+                <option value="@form.Value">@form.Text</option>
+            }
+        </select>
+        <button type="submit" class="btn btn-primary">Фильтр</button>
+       
+        <div>
+            <a asp-action="Ctlg" asp-route-clearFilters="true">Очистить фильтры</a> |
+            <a asp-action="Ctlg" asp-route-sortOrder="@Model.NameSortParm" asp-route-typeId="@Model.GuitarTypeId" asp-route-formId="@Model.GuitarFormId">Сортировать по названию</a> |
+            <a asp-action="Ctlg" asp-route-sortOrder="@Model.PriceSortParm" asp-route-typeId="@Model.GuitarTypeId" asp-route-formId="@Model.GuitarFormId">Сортировать по цене</a>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+    @if (Model.Guitars != null && Model.Guitars.Any())
+    {
+        @foreach (var guitar in Model.Guitars)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="~/image/@guitar.GuitarImage" class="card-img-top" alt="@guitar.NameGuitar" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@guitar.NameGuitar</h5>
+                        <p class="card-text">@guitar.GuitarDescription</p>
+                        <p class="card-text">Цена: @guitar.GuitarPrice</p>
+                        <p class="card-text">Тип: @guitar.GuitarType.TypeName</p>
+                        <p class="card-text">Форма: @guitar.GuitarForm.FormName</p>
+                        <form asp-controller="Catalog" asp-action="AddToCart" method="post">
+                            <input type="hidden" name="id" value="@guitar.IdGuitar" />
+                            <button type="submit" class="btn btn-success">Добавить в корзину</button>
+                            <a asp-controller="Product" asp-action="prd" asp-route-id="@guitar.IdGuitar" class="btn btn-primary mt-auto">Подробнее</a>
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <p>Гитар не найдено.</p>
+    }
+</div>
+
+
+<script>
+    document.getElementById('filterForm').addEventListener('submit', function (event) {
+        event.preventDefault();
+        const searchString = document.getElementById('searchString').value;
+        const typeId = document.getElementById('typeId').value;
+        const formId = document.getElementById('formId').value;
+        const url = `/Catalog/Ctlg?searchString=${searchString}&typeId=${typeId}&formId=${formId}`;
+        window.location.href = url;
+    });
+</script>

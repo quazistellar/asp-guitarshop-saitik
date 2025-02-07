@@ -1,0 +1,23 @@
+﻿@model guitarshop.Models.Order
+@{
+    ViewBag.Title = Model.OrderDate;
+}
+<h2>Заказ</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.IdOrder</dd>
+        <dt>Пользователь</dt>
+        <dd>@Model.IdUser</dd>
+        <dt>Комментарий</dt>
+        <dd>@Model.OrderComment</dd>
+        <dt>Адрес</dt>
+        <dd>@Model.OrderAddress</dd>
+        <dt>Дата заказа</dt>
+        <dd>@Model.OrderDate</dd>
+        <dt>Стоимость</dt>
+        <dd>@Model.OrderTotalCost</dd>
+        <dt>Позиция заказа</dt>
+        <dd>@Model.PosOrders</dd>
+    </dl>
+</div>

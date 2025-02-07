@@ -1,0 +1,29 @@
+﻿@model guitarshop.Models.GuitarForm
+
+@{
+    ViewBag.Title = "Изменение формы";
+}
+
+<h1>Изменение формы</h1>
+<hr />
+<form asp-action="UpdateForm" asp-route-id="@Model.IdForm">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="IdForm" />
+    <div class="form-group">
+        <label asp-for="FormName" class="control-label">Название формы</label>
+        <input asp-for="FormName" class="form-control" />
+        <span asp-validation-for="FormName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Сохранить" class="btn btn-primary" />
+    </div>
+</form>
+<div>
+    <a asp-action="CrdForm">Назад к списку</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

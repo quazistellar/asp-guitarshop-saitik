@@ -1,0 +1,29 @@
+﻿@model guitarshop.Models.TypeGuitar
+
+@{
+    ViewBag.Title = "Изменение типа гитары";
+}
+
+<h1>Изменение типа гитары</h1>
+<hr />
+<form asp-action="UpdateType" asp-route-id="@Model.IdType">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="IdType" />
+    <div class="form-group">
+        <label asp-for="TypeName" class="control-label">Название типа</label>
+        <input asp-for="TypeName" class="form-control" />
+        <span asp-validation-for="TypeName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Сохранить" class="btn btn-primary" />
+    </div>
+</form>
+<div>
+    <a asp-action="CrdTypes">Назад к списку</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

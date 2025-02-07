@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.Order>
+@{
+    ViewBag.Title = "Все заказы";
+}
+
+<a asp-action="CreateOrder">Добавить заказ</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.OrderDate</td>
+            <td>
+                |
+                <a asp-action="UpdateOrder" asp-route-id="@item.IdOrder" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeleteOrder" asp-route-id="@item.IdOrder" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsOrder" asp-route-id="@item.IdOrder" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация и Регистрация</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body {
+            background: #FFF0F5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('/image/back.png');
+        }
+
+        .auth-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            max-width: 400px;
+            width: 100%;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+
+        .auth-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+            .auth-header h2 {
+                font-weight: bold;
+                color: #333;
+            }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input {
+            border-radius: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .btn-primary {
+            background-color: #2196F3;
+            border-color: #2196F3;
+        }
+
+            .btn-primary:hover {
+                background-color: #1976D2;
+                border-color: #1976D2;
+            }
+
+        .auth-footer {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+            .auth-footer a {
+                color: #2196F3;
+                text-decoration: none;
+            }
+
+                .auth-footer a:hover {
+                    text-decoration: underline;
+                }
+    </style>
+</head>
+<body>
+    <h1>Личный кабинет</h1>
+    <p>User.Identity.IsAuthenticated: @User.Identity.IsAuthenticated</p>
+    <p>User.Identity.Name: @User.Identity.Name</p>
+    <p>Утверждения:</p>
+    <ul>
+        @foreach (var claim in User.Claims)
+        {
+            <li>@claim.Type: @claim.Value</li>
+        }
+    </ul>
+
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <h2>Добро пожаловать, @User.Identity?.Name</h2>
+
+
+        <div class="container">
+        
+            <p><strong>Имя пользователя:</strong> @User.Identity.Name</p>
+            <form asp-action="Logout" asp-controller="Autorize" method="post">
+                <button type="submit" class="btn btn-danger btn-block">Выход</button>
+            </form>
+        </div>
+    }
+
+    @if (@User.Identity?.IsAuthenticated == false)
+    {
+    
+
+        <div class="auth-container" id="loginForm">
+            <div class="auth-header">
+                <h2>Вход</h2>
+            </div>
+
+            <form method="post" action="/Autorize/Cab">
+                <div class="form-group">
+                    <label for="login">Логин пользователя:</label>
+                    <input type="text" class="form-control" id="username" name="login" placeholder="Имя пользователя">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Пароль">
+                </div>
+                <button type="submit" class="btn btn-danger btn-block">Вход</button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Нет аккаунта? <a href="/Autorize/Regist" id="registerLink">Зарегистрируйтесь</a></p>
+            </div>
+        </div>
+        }
+    
+
+   
+
+</body>
+</html>

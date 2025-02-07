@@ -1,0 +1,20 @@
+﻿@model guitarshop.Models.Cart
+@{
+    ViewBag.Title = "Delete";
+}
+<div>
+    <dl>
+        <dt>ID корзины</dt>
+        <dd>@Html.DisplayFor(model => model.CartId)</dd>
+
+        <dt>ID пользователя</dt>
+        <dd>@Html.DisplayFor(model => model.UserId)</dd>
+
+        <div>
+            <form asp-controller="CRUD" asp-action="DeleteCart" method="post">
+                <div>
+                    <input type="submit" value="Удалить" />
+                </div>
+            </form>
+        </div>
+</div>

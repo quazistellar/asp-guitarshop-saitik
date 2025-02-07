@@ -1,0 +1,17 @@
+﻿@model guitarshop.Models.Cart
+@{
+    ViewBag.Title = Model.CartId;
+}
+<h2>Корзина</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.CartId</dd>
+        <dt>Пользователь</dt>
+        <dd>@Model.UserId</dd>
+        <dt>ID товара</dt>
+        <dd>@Model.ProductId</dd>
+        <dt>Количество</dt>
+        <dd>@Model.Quantity</dd>
+    </dl>
+</div>

@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация и Регистрация</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body {
+            background: #FFF0F5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('/image/back.png');
+        }
+
+ 
+
+   .auth-container {
+    display: flex;
+    width: 80%; 
+    margin: 50px auto; 
+      border: 5px solid #FFB6C1;
+     border-radius: 5px; 
+    overflow: hidden; 
+}
+
+.auth-content {
+    display: flex;
+}
+
+.auth-image {
+    width: 50%;
+}
+
+.auth-image img {
+    width: 100%; 
+    height: 100%;
+}
+
+.auth-form {
+    width: 50%; 
+    padding: 20px;
+}
+
+.auth-header h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.btn-danger {
+    background-color: #dc3545; 
+    border-color: #dc3545;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="auth-container" id="registerForm">
+        <div class="auth-content">
+            <div class="auth-image">
+                <img src="~/image/other.png" alt="Registration Image">
+            </div>
+            <div class="auth-form">
+                <div class="auth-header">
+                    <h2>Регистрация</h2>
+                </div>
+                <form method="post" action="/Autorize/Regist">
+                    <div class="form-group">
+                        <label for="registerUsername">Логин:</label>
+                        <input type="text" class="form-control" id="registerUsername" name="login" placeholder="Логин">
+                    </div>
+                    <div class="form-group">
+                        <label for="registerPassword">Пароль:</label>
+                        <input type="password" class="form-control" id="registerPassword" name="password" placeholder="Пароль">
+                    </div>
+                    <div class="form-group">
+                        <label for="registerName">Имя:</label>
+                        <input type="text" class="form-control" id="registerName" name="name" placeholder="Имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="registerSurname">Фамилия:</label>
+                        <input type="text" class="form-control" id="registerSurname" name="surname" placeholder="Фамилия">
+                    </div>
+                    <div class="form-group">
+                        <label for="registerPatronymic">Отчество:</label>
+                        <input type="text" class="form-control" id="registerPatronymic" name="patr" placeholder="Отчество">
+                    </div>
+                    <div class="form-group">
+                        <label for="registerEmail">Почта:</label>
+                        <input type="email" class="form-control" id="registerEmail" name="email" placeholder="Почта">
+                    </div>
+                    <button type="submit" class="btn btn-danger btn-block">Регистрация</button>
+                </form>
+                <div class="auth-footer">
+                    <p>Уже есть аккаунт? <a href="/Autorize/Cab" id="loginLink">Войти</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

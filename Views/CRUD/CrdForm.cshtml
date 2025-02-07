@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.GuitarForm>
+@{
+    ViewBag.Title = "Все формы";
+}
+
+<a asp-action="CreateForm">Добавить форму гитары</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FormName</td>
+            <td>
+                |
+                <a asp-action="UpdateForm" asp-route-id="@item.IdForm" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeleteForm" asp-route-id="@item.IdForm" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsForm" asp-route-id="@item.IdForm" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,17 @@
+﻿@model guitarshop.Models.PosOrder
+@{
+    ViewBag.Title = Model.IdPosOrder;
+}
+<h2>Позиция заказа</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.IdPosOrder</dd>
+        <dt>id товара</dt>
+        <dd>@Model.IdCatalogProd</dd>
+        <dt>ID заказа</dt>
+        <dd>@Model.IdOrder</dd>
+        <dt>Количество</dt>
+        <dd>@Model.OrderCount</dd>
+    </dl>
+</div>

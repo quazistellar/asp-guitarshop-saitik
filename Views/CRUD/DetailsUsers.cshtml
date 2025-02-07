@@ -1,0 +1,23 @@
+﻿@model guitarshop.Models.User
+@{
+    ViewBag.Title = Model.LoginUser;
+}
+<h2>Пользователь</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.IdUser</dd>
+        <dt>Логин</dt>
+        <dd>@Model.LoginUser</dd>
+        <dt>ID роли</dt>
+        <dd>@Model.IdRole</dd>
+        <dt>Email</dt>
+        <dd>@Model.Email</dd>
+        <dt>Имя</dt>
+        <dd>@Model.NameClient</dd>
+        <dt>Фамилия</dt>
+        <dd>@Model.SurnameClient</dd>
+        <dt>Отчество</dt>
+        <dd>@Model.PatronimClient</dd>
+    </dl>
+</div>

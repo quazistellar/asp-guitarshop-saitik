@@ -1,0 +1,42 @@
+﻿@model guitarshop.Models.CatalogProd
+
+@{
+    ViewBag.Title = "Изменение товара";
+}
+
+<h1>Edit</h1>
+<h4>FormGuitar</h4>
+<hr />
+<form asp-action="Update">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="IdGuitar" />
+    <div class="form-group">
+        <label asp-for="NameGuitar" class="control-label"></label>
+        <input asp-for="NameGuitar" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarDescription" class="control-label"></label>
+        <input asp-for="GuitarDescription" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarImage" class="control-label"></label>
+        <input asp-for="GuitarImage" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarPrice" class="control-label"></label>
+        <input asp-for="GuitarPrice" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarFormId" class="control-label"></label>
+        <input asp-for="GuitarFormId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="GuitarTypeId" class="control-label"></label>
+        <input asp-for="GuitarTypeId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Сохранить" class="btn btn-primary" />
+    </div>
+</form>
+<div>
+</div>

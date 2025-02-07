@@ -1,0 +1,29 @@
+﻿@model guitarshop.Models.Role
+
+@{
+    ViewBag.Title = "Изменение роли";
+}
+
+<h1>Изменение роли</h1>
+<hr />
+<form asp-action="UpdateRole" asp-route-id="@Model.IdRole">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="IdRole" />
+    <div class="form-group">
+        <label asp-for="RoleName" class="control-label">Название ролм</label>
+        <input asp-for="RoleName" class="form-control" />
+        <span asp-validation-for="RoleName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Сохранить" class="btn btn-primary" />
+    </div>
+</form>
+<div>
+    <a asp-action="CrdRole">Назад к списку</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

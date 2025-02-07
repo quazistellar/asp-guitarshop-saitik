@@ -1,0 +1,15 @@
+﻿@model guitarshop.Models.CatalogProd
+@{
+    ViewBag.Title = Model.NameGuitar;
+}
+<h2>Данные о гитаре</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.IdGuitar</dd>
+        <dt>Название</dt>
+        <dd>@Model.NameGuitar</dd>
+        <dt>Описание</dt>
+        <dd>@Model.GuitarDescription</dd>
+    </dl>
+</div>

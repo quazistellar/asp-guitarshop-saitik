@@ -1,0 +1,13 @@
+﻿@model guitarshop.Models.GuitarForm
+@{
+    ViewBag.Title = Model.FormName;
+}
+<h2>Форма гитары</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Идентификатор</dt>
+        <dd>@Model.IdForm</dd>
+        <dt>Название формы</dt>
+        <dd>@Model.FormName</dd>
+    </dl>
+</div>

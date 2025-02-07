@@ -1,0 +1,21 @@
+﻿@model IEnumerable<guitarshop.Models.TypeGuitar>
+@{
+    ViewBag.Title = "Все типы гитар";
+}
+
+<a asp-action="CreateType">Добавить тип гитары</a>
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.TypeName</td>
+            <td>
+                |
+                <a asp-action="UpdateType" asp-route-id="@item.IdType" asp-controller="CRUD">Изменить</a> |
+                <a asp-action="DeleteType" asp-route-id="@item.IdType" asp-controller="CRUD">Удалить</a> |
+                <a asp-action="DetailsType" asp-route-id="@item.IdType" asp-controller="CRUD">Детали</a> |
+            </td>
+        </tr>
+    }
+</table>
