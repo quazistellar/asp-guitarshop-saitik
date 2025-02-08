@@ -1,0 +1,21 @@
+﻿@model double
+
+@if (Model > 0)
+{
+    <div class="text-warning">
+        @for (int i = 0; i < (int)Math.Floor(Model); i++)
+        {
+            <span>⭐️</span>
+        }
+        @for (int i = (int)Math.Floor(Model); i < 5; i++)
+        {
+            <span>☆</span>
+        }
+        <span class="text-muted">(@Model.ToString("0.0"))</span>
+    </div>
+}
+else
+{
+    <p class="text-muted">Нет оценок</p>
+}
+

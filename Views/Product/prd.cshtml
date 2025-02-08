@@ -4,35 +4,125 @@
 }
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<div class="container">
-    <h1>@Model.NameGuitar</h1>
-    <div style="display: flex; align-items: center;">
-        <div style="width: 200px; margin-right: 10px;">
-            <img src="~/image/@Model.GuitarImage" alt="@Model.NameGuitar" style="width: 100%; height: auto; max-width: 200px; max-height: 250px; display: block;">
-        </div>
-        <div>
-            <p>Описание гитары: @Model.GuitarDescription</p>
-        </div>
-    </div>
-    <p>Цена: @Model.GuitarPrice.ToString("C")</p>
 
-    <h2>Отзывы</h2>
+<style>
+    .guitar-details {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
 
-    @if (Model.Reviews != null && Model.Reviews.Any())
-    {
-        foreach (var review in Model.Reviews)
-        {
-            @Html.DisplayFor(modelItem => review, "Review")
+    .guitar-image {
+        width: 250px; 
+        border: 1px solid #ddd; 
+        border-radius: 8px; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    }
+
+    .guitar-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+    }
+
+    .guitar-info {
+        flex-grow: 1; 
+    }
+
+    .guitar-info p {
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .price {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #333; 
+        margin-bottom: 20px;
+    }
+
+    .reviews-section {
+        margin-top: 30px;
+        border-top: 1px solid #eee; 
+        padding-top: 20px;
+    }
+
+    .review-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .review-list li {
+        margin-bottom: 15px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+ 
+        .guitar-details {
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        .guitar-image {
+            width: 80%;
+            max-width: 300px; 
+        }
+
+        .guitar-info {
+            text-align: center; 
         }
     }
-    else
-    {
-        <p>Пока нет отзывов об этом товаре.</p>
-    }
+</style>
 
-    @{
-        @Html.Partial("CreateReview", new guitarshop.Models.Review(), ViewData)
-    }
+<div class="container">
+    <h1 style="text-align: center;">@Model.NameGuitar</h1>
+
+
+    <div class="guitar-details">
+        <div class="guitar-image">
+            <img src="~/image/@Model.GuitarImage" alt="@Model.NameGuitar" />
+        </div>
+
+        <div class="guitar-info">
+            <p>@Model.GuitarDescription</p>
+            <p class="price">Цена: @Model.GuitarPrice.ToString("C")</p>
+            @await Component.InvokeAsync("AverageRating", new { GuitarId = Model.IdGuitar })
+        </div>
+        <form asp-controller="Catalog" asp-action="AddToCart" method="post">
+            <input type="hidden" name="id" value="@Model.IdGuitar" />
+            <button type="submit" class="btn btn-success">Добавить в корзину</button>
+        </form>
+    </div>
+
+
+    <div class="reviews-section">
+        <h2>Отзывы</h2>
+
+        @if (Model.Reviews != null && Model.Reviews.Any())
+        {
+            <ul class="review-list">
+                @foreach (var review in Model.Reviews)
+                {
+                    <li>@Html.DisplayFor(modelItem => review, "Review")</li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>Пока нет отзывов об этом товаре.</p>
+        }
+
+        <h3>Добавить отзыв</h3>
+        @{
+            @Html.Partial("CreateReview", new guitarshop.Models.Review(), ViewData)
+        }
+    </div>
 
     @{
         ViewData["IdGuitar"] = Model.IdGuitar;
