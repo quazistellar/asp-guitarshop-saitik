@@ -142,3 +142,4 @@ C:\Users\User\source\repos\guitarshop\obj\Debug\net8.0\guitarshop.pdb
 C:\Users\User\source\repos\guitarshop\obj\Debug\net8.0\guitarshop.genruntimeconfig.cache
 C:\Users\User\source\repos\guitarshop\obj\Debug\net8.0\ref\guitarshop.dll
 C:\Users\User\source\repos\guitarshop\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\User\source\repos\guitarshop\obj\Debug\net8.0\guitarshop.sourcelink.json

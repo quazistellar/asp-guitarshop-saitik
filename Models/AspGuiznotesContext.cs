@@ -25,24 +25,20 @@ public partial class AspGuiznotesContext : DbContext
 
     public virtual DbSet<PosOrder> PosOrders { get; set; }
 
+    public virtual DbSet<Review> Reviews { get; set; }
+
     public virtual DbSet<Role> Roles { get; set; }
 
     public virtual DbSet<TypeGuitar> TypeGuitars { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
-    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//#warningTo protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        //=> optionsBuilder.UseSqlServer("Data Source=DESKTOP-F9O3L5H\\SQLEXPRESS;Initial Catalog=ASP_Guiznotes;Integrated Security=True;Trust Server Certificate=True");
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-F9O3L5H\\SQLEXPRESS;Initial Catalog=ASP_Guiznotes;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<Cart>()
-            .HasOne(c => c.Product)
-            .WithMany()
-            .HasForeignKey(c => c.ProductId);
-
-
         modelBuilder.Entity<Cart>(entity =>
         {
             entity.HasKey(e => e.CartId).HasName("PK__Cart__51BCD7B74AC514B2");
@@ -143,6 +139,29 @@ public partial class AspGuiznotesContext : DbContext
                 .HasForeignKey(d => d.IdOrder)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__PosOrder__ID_Ord__5CD6CB2B");
+        });
+
+        modelBuilder.Entity<Review>(entity =>
+        {
+            entity.HasKey(e => e.IdReviews).HasName("PK__Reviews__42F208830F4C8245");
+
+            entity.Property(e => e.IdReviews).HasColumnName("ID_Reviews");
+            entity.Property(e => e.GuitarId).HasColumnName("Guitar_ID");
+            entity.Property(e => e.ReviewDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.ReviewText).HasColumnType("text");
+            entity.Property(e => e.UserReviewId).HasColumnName("UserReview_ID");
+
+            entity.HasOne(d => d.Guitar).WithMany(p => p.Reviews)
+                .HasForeignKey(d => d.GuitarId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Reviews__Guitar___778AC167");
+
+            entity.HasOne(d => d.UserReview).WithMany(p => p.Reviews)
+                .HasForeignKey(d => d.UserReviewId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Reviews__UserRev__76969D2E");
         });
 
         modelBuilder.Entity<Role>(entity =>

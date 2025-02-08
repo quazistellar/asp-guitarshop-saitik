@@ -1,0 +1,67 @@
+﻿@model guitarshop.Models.Review
+
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="review-form">
+        <h4>Оставить отзыв</h4>
+        <form asp-action="CreateReview" asp-controller="Product" method="post">
+            <input type="hidden" name="GuitarId" value="@ViewData["GuitarId"]" />
+
+            <div class="form-group">
+                <label asp-for="Rating">Рейтинг:</label>
+                <div class="rating">
+                    @for (int i = 5; i >= 1; i--)
+                    {
+                        <input type="radio" id="star@(i)" name="Rating" value="@i" required />
+                        <label for="star@(i)" title="@i stars"><i class="fa fa-star"></i></label>
+                    }
+                </div>
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="ReviewText">Ваш отзыв:</label>
+                <textarea asp-for="ReviewText" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="ReviewText" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Отправить отзыв</button>
+        </form>
+    </div>
+
+    <style>
+        .rating {
+            display: inline-block;
+        }
+
+            .rating input {
+                display: none;
+            }
+
+            .rating label {
+                float: right;
+                padding: 0px 5px;
+                font-size: 20px;
+                color: #ddd;
+                cursor: pointer;
+            }
+
+                .rating label:hover,
+                .rating label:hover ~ label,
+                .rating input:checked ~ label {
+                color: gold;
+                }
+
+        .review-form {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+}
+else
+{
+    <p>Пожалуйста, <a asp-area="Identity" asp-page="/Autorize/Cab">войдите</a> или <a asp-area="Identity" asp-page="/Autorize/Regist">зарегистрируйтесь</a>, чтобы оставить отзыв.</p>
+}

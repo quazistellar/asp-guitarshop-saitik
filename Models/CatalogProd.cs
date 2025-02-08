@@ -27,5 +27,5 @@ public partial class CatalogProd
 
     public virtual ICollection<PosOrder> PosOrders { get; set; } = new List<PosOrder>();
 
-
+    public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 }

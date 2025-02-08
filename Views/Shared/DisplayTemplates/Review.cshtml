@@ -1,0 +1,45 @@
+﻿@model guitarshop.Models.Review
+
+<div class="review">
+    <div class="review-header">
+        <strong>@Model.UserReview.NameClient @Model.UserReview.SurnameClient</strong>
+        <span>
+            (Оценка:
+            @for (int i = 0; i < Model.Rating; i++)
+            {
+                <i class="fas fa-star"></i>  @* *@
+            }
+            )
+        </span>
+    </div>
+    <div class="review-body">
+        <p>@Model.ReviewText</p>
+    </div>
+    <div class="review-footer">
+        <small>Опубликовано: @Model.ReviewDate.ToString("dd.MM.yyyy HH:mm")</small>
+    </div>
+</div>
+
+<style>
+    .review {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .review-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .review-body {
+        margin-bottom: 5px;
+    }
+
+    .review-footer {
+        font-style: italic;
+        text-align: right;
+    }
+</style>
